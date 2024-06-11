@@ -1,7 +1,7 @@
 FROM ros:noetic
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -yq --no-install-recommends
 RUN apt-get install -y usbutils
-RUN apt-get install -y ros-noetic-realsense2-*
+RUN apt-get install -y ros-noetic-realsense2-camera
 RUN apt-get install -y curl
 
 RUN mkdir -p /etc/apt/keyrings
