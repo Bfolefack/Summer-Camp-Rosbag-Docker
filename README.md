@@ -20,7 +20,7 @@
 
 ## How to Record a Rosbag
 1. Open a terminal in the docker container by running `connect.bat` in the `src` folder in this terminal run the command `roscore`
-2. In another terminal in the docker container run the command `roslaunch realsense2_camera rs_camera.launch` to turn on the realsense camera
+2. In another terminal in the docker container run the command `roslaunch realsense2_camera rs_camera.launch` to turn on the realsense camera. You will see a lot of warnings in the terminal, but they should stop after a few seconds.
 3. In another terminal in the docker container run the command `../record.sh` to start recording a rosbag file
 4. To stop recording the rosbag file, press `Ctrl+C` in the terminal where you ran the `../record.sh` command
 **Important**: rosbag files take up a lot of space, so make sure not to record for too long
