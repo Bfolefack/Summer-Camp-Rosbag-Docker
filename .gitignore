@@ -1,2 +1,4 @@
 *.bag
 *.active
+!example1.bag
+!example2.bag
