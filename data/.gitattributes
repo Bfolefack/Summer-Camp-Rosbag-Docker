@@ -1,0 +1,2 @@
+example1.bag filter=lfs diff=lfs merge=lfs -text
+example2.bag filter=lfs diff=lfs merge=lfs -text
